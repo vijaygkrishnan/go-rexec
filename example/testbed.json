@@ -1,0 +1,43 @@
+{  "Groups":
+    [
+        {
+            "GroupName" : "swmp1-spines",
+            "Nodes" : [
+                { "NodeIP" : "swmp1-spine1.domain.local" },
+                { "NodeIP" : "swmp1-spine2.domain.local" },
+                { "NodeIP" : "swmp1-spine3.domain.local" },
+                { "NodeIP" : "swmp1-spine4.domain.local" },
+                { "NodeIP" : "swmp1-spine5.domain.local" },
+                { "NodeIP" : "swmp1-spine6.domain.local" }
+            ]
+        },
+        {
+            "GroupName" : "swmp1-leafs",
+            "Nodes" : [
+                { "NodeIP" : "swmp1-leaf1.domain.local" },
+                { "NodeIP" : "swmp1-leaf2.domain.local" },
+                { "NodeIP" : "swmp1-leaf3.domain.local" },
+                { "NodeIP" : "swmp1-leaf4.domain.local" },
+                { "NodeIP" : "swmp1-leaf5.domain.local" },
+                { "NodeIP" : "swmp1-leaf6.domain.local" }
+            ]
+        },
+        {
+            "GroupName" : "swmp1",
+            "Nodes" : [
+                { "NodeIP" : "swmp1-spine1.domain.local" },
+                { "NodeIP" : "swmp1-spine2.domain.local" },
+                { "NodeIP" : "swmp1-spine3.domain.local" },
+                { "NodeIP" : "swmp1-spine4.domain.local" },
+                { "NodeIP" : "swmp1-spine5.domain.local" },
+                { "NodeIP" : "swmp1-spine6.domain.local" },
+                { "NodeIP" : "swmp1-leaf1.domain.local" },
+                { "NodeIP" : "swmp1-leaf2.domain.local" },
+                { "NodeIP" : "swmp1-leaf3.domain.local" },
+                { "NodeIP" : "swmp1-leaf4.domain.local" },
+                { "NodeIP" : "swmp1-leaf5.domain.local" },
+                { "NodeIP" : "swmp1-leaf6.domain.local" }
+            ]
+        }
+    ]
+}
