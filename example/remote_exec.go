@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vijaygkrishnan/rexec"
+import rexec "github.com/vijaygkrishnan/go-rexec"
 
 func main() {
     rexec.Main()
