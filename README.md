@@ -1,5 +1,5 @@
 # go-rexec
-Script to execute CLI commands on multiple cisco nexus switches or linux hosts. Converted my python scripts to golang to tryout go-language. Since go encourages and makes it easy to open source, here is my first github commit !
+Script to execute CLI commands concurrently on multiple cisco nexus switches or linux hosts. Converted my python scripts to golang to tryout go-language. Since go encourages and makes it easy to open source, here is my first github commit !
 
 # build
 Call Main() from go-rexec package and build to get a runnable binary
