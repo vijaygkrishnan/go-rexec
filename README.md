@@ -5,13 +5,11 @@ Basic script to execute CLI commands on multiple cisco nexus switches or linux h
 Call Main() from go-rexec package and build to get a runnable binary
 
 example/remote_exec.go:
-
+```
 package main
- 
 import rexec "github.com/vijaygkrishnan/go-rexec"
-
 func main() { rexec.Main() }
- 
+``` 
 go build remote_exec.go
 
 # usage
